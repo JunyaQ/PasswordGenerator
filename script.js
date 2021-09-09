@@ -1,5 +1,17 @@
 // Assignment code here
-
+//check the functions, if checked reutrn true, not checked return false
+function checklowercase() {
+  var checklower = document.getElementById("lowercase").checked;
+}
+function checkuppercase(){
+  var checkupper = document.getElementById("uppercase").checked;
+}
+function checknumeric(){
+  var checknumeric = document.getElementById("numeric").checked;
+}
+function checkspecial(){
+  var checkspecial = document.getElementById("special").checked;
+}
 
 
 
