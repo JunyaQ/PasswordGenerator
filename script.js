@@ -12,7 +12,56 @@ function checknumeric(){
 function checkspecial(){
   var checkspecial = document.getElementById("special").checked;
 }
+// generate password function with only owercase
+function generatelowerPassword(length){
+  var characters       = 'abcdefghijklmnopqrstuvwxyz';
+  var charactersLength = characters.length;
+  var result ='';
+  for ( var i = 0; i < length; i++ ) {
+    r = characters.charAt(Math.floor(Math.random() * charactersLength));
+    result = result +r;
+ }
+ return result;
+}
+//generate password with upper case
+function generateupperPassword(length){
+  var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var charactersLength = characters.length;
+  var result = '';
+    for ( var i = 0; i < length; i++ ) {
+    r = characters.charAt(Math.floor(Math.random() * charactersLength));
+    result = result +r;
+ }
+ return result;
+}
+//generate password with numeric case
+function generatenumericPassword(length){
+  var characters = '1234567890';
+  var charactersLength = characters.length;
+  var result = '';
+    for ( var i = 0; i < length; i++ ) {
+    r = characters.charAt(Math.floor(Math.random() * charactersLength));
+    result = result +r;
+ }
+ return result;
+}
+//generate password with special characters
+function generatespecialPassword(length){
+  var characters = '!@#$%^&*()_+~`|}{[]\:;?><,./-=';
+  var charactersLength = characters.length;
+  var result = '';
+    for ( var i = 0; i < length; i++ ) {
+    r = characters.charAt(Math.floor(Math.random() * charactersLength));
+    result = result +r;
+ }
+ return result;
+}
 
+
+console.log("lower  "+generatelowerPassword(3));
+console.log("upper  "+generateupperPassword(3));
+console.log("numeric "+generatenumericPassword(3));
+console.log("special "+generatespecialPassword(3));
 
 
 // Get references to the #generate element
