@@ -22,15 +22,12 @@ function checkspecial(){
 }
 function getlength(){
 var l = document.getElementById("pswlength").value;
-console.log("get length "+l);
+//console.log("get length "+l);
 return l;
 }
 
 
-
-
-
-
+/*main function generate the password*/
 function generatefunction(length){
   //only lower
 if(checklowercase()===true && checkuppercase()===false && checknumeric()===false && checkspecial()===false){
