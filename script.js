@@ -31,7 +31,7 @@ return l;
 
 
 
-function generatePassword(length){
+function generatefunction(length){
   //only lower
 if(checklowercase()===true && checkuppercase()===false && checknumeric()===false && checkspecial()===false){
   var characters       = 'abcdefghijklmnopqrstuvwxyz';
@@ -202,7 +202,7 @@ else{
 }
 }
 //check the length and generate password
-function checklength(){
+function generatepassword(){
   var length = getlength();
   var result ='';
   if(length <8){
@@ -217,7 +217,7 @@ function checklength(){
   }
   else{
     
-    result = generatePassword(length);
+    result = generatefunction(length);
     return result;
   }
 }
@@ -227,7 +227,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = checklength();
+  var password = generatepassword();
   var passwordText = document.querySelector("#password");
   
   passwordText.value = password;
