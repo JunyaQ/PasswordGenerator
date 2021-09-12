@@ -9,4 +9,4 @@ Here is the image for the deployed webpage:<br/>
 <img src="./img/webpage.jpg"><br/>
 created by Junya Q<br/>
 
-Delopyed URL for this website: https://junyaq.github.io/bootcamp-challenge-03/
+Deployed URL for this website: https://junyaq.github.io/bootcamp-challenge-03/
