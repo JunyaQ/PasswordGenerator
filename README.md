@@ -1,4 +1,4 @@
-# bootcamp-challenge-03
+# Password Generator
 WHEN choose the checkbox<br/>
 THEN can choose at lease 1 and at most 4 options to generate password based on the requirement choosen<br/>
 WHEN enter number to the text box<br/>
