@@ -11,6 +11,8 @@ WHEN click on the generate button<br/>
 THEN generate the password based on requrements<br/>
 
 ## Technologies use 
+- HTML
+- CSS
 - Javascript
 
 ## Demo
